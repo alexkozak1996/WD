@@ -9,6 +9,234 @@
   <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
-  
+  <!-- Шапка -->
+  <header class="header">
+    <div class="header__top">
+      <img class="logo" src="/image/logo.svg" alt="Логотип WD">
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-list-item">
+            <a href="#0" class="header__menu-link">
+              Главная
+            </a>
+          </li>
+          <li class="header__menu-list-item">
+            <a href="#0" class="header__menu-link">
+              Об авторе
+            </a>
+          </li>
+          <li class="header__menu-list-item">
+            <a href="#0" class="header__menu-link">
+              Работы
+            </a>
+          </li>
+          <li class="header__menu-list-item">
+            <a href="#0" class="header__menu-link">
+              Процесс
+            </a>
+          </li>
+          <li class="header__menu-list-item">
+            <a href="#0" class="header__menu-link">
+              Контакты
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__bottom">
+      <img src="/image/image__header.svg" alt="Картинка компьютера" class="header__image">
+      <div class="header__design">
+        <h1 class="header__title">
+          Дизайн и верстка
+        </h1>
+        <p class="header__text">
+          Lorem Ipsum - это текст-"рыба", часто используемый в печати и 
+          вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов 
+          на латинице с начала XVI века
+        </p>
+        <button class="button header__button">
+          Написать мне
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- Конец шапки -->
+
+  <!-- Основной контент -->
+  <main class="main">
+    <!-- Секция обо мне -->
+    <section class="about">
+      <h2 class="about__title">
+        Обо мне
+      </h2>
+      <p class="about__text">
+        Lorem Ipsum - это текст-"рыба", часто используемый в печати и 
+        вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов 
+        на латинице с начала XVI века.
+      </p>
+    </section>
+    <!-- Конец секции обо мне -->
+
+    <!-- Секция проекты -->
+    <section class="project">
+      <h2 class="project__title visually-hidden">
+        Мои проекты
+      </h2>
+      <img src="/image/project.svg" alt="Картинка проекты" class="project__image">
+      <img src="/image/project.svg" alt="Картинка проекты" class="project__image">
+      <img src="/image/project.svg" alt="Картинка проекты" class="project__image">
+      <img src="/image/project.svg" alt="Картинка проекты" class="project__image">
+      <img src="/image/project.svg" alt="Картинка проекты" class="project__image">
+      <img src="/image/project.svg" alt="Картинка проекты" class="project__image">
+    </section>
+    <!-- Конец секции проекты -->
+
+    <!-- Секция навыки -->
+    <section class="skills">
+      <div class="skills__column">
+        <h2 class="skills__title">
+          Мои навыки
+        </h2>
+        <div class="skills__items">
+          <ul class="skills__list">
+            <li class="skills__list-item">
+              <h3 class="skills__list-item-title">
+                Adobe Photoshop
+              </h3>
+              <div class="skills__list-item-skill">
+
+              </div>
+            </li>
+            <li class="skills__list-item">
+              <h3 class="skills__list-item-title">
+                Adobe Photoshop
+              </h3>
+              <div class="skills__list-item-skill">
+
+              </div>
+            </li>
+            <li class="skills__list-item">
+              <h3 class="skills__list-item-title">
+                Adobe Photoshop
+              </h3>
+              <div class="skills__list-item-skill">
+
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <img src="/image/skills.jpg" alt="Моё фото" class="skills__img">
+    </section>
+    <!-- Конец секции Навыки -->
+    
+    <!-- Секция как я работаю -->
+    <section class="myWork">
+      <h2 class="myWork__title">
+        Как я работаю
+      </h2>
+      <p class="myWork__text">
+        Lorem Ipsum - это текст-"рыба", часто используемый в печати и 
+        вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов 
+        на латинице с начала XVI века.
+      </p>
+      <iframe
+        class="myWork__video"
+        width="1110" 
+        height="600" 
+        src="https://www.youtube.com/embed/JKlTjCQa_eY?list=PLDyJYA6aTY1lu4POV7O2M9UOwHOKBaaLs" 
+        title="Верстка сайта с нуля на HTML | CSS / #1 – Разработка крутого веб-сайта для начинающих" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen
+        >
+      </iframe>
+    </section>
+    <!-- Конец секции с моей работой -->
+
+    <!--Секция с работой -->
+    <section class="work">
+      <h2 class="work__title visually-hidden">
+        Моя работа
+      </h2>
+      <img src="image/work_1.png" alt="Кратинка с работой" class="work__image">
+      <img src="image/work_2.png" alt="Кратинка с работой" class="work__image">
+      <img src="image/work_1.png" alt="Кратинка с работой" class="work__image">
+      <img src="image/work_2.png" alt="Кратинка с работой" class="work__image">
+      <img src="image/work_1.png" alt="Кратинка с работой" class="work__image">
+      <img src="image/work_2.png" alt="Кратинка с работой" class="work__image">
+      <img src="image/work_1.png" alt="Кратинка с работой" class="work__image">
+      <img src="image/work_2.png" alt="Кратинка с работой" class="work__image">
+    </section>
+    <!-- Конец секции с работой -->
+
+    <!-- Секция с партнерами -->
+    <section class="partners">
+      <h2 class="partners__title visually-hidden">
+        Партнеры
+      </h2>
+      <img src="image/MS_logo.png" alt="Логотип Майкрософт" class="partners__image">
+      <img src="image/MS_logo.png" alt="Логотип Майкрософт" class="partners__image">
+      <img src="image/MS_logo.png" alt="Логотип Майкрософт" class="partners__image">
+      <img src="image/MS_logo.png" alt="Логотип Майкрософт" class="partners__image">
+      <img src="image/MS_logo.png" alt="Логотип Майкрософт" class="partners__image">
+    </section>
+    <!-- Конец секции с партнерами-->
+
+    <!-- Секция с формой -->
+    <section class="feedback">
+      <h2 class="feedback__title">
+        Хотите веб-сайт?
+      </h2>
+      <p class="feedback__text">
+        Lorem Ipsum - это текст-"рыба", часто используемый в печати и 
+        вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов 
+        на латинице с начала XVI века.
+      </p>
+      <form class="feedback__form">
+        <div class="feedback__form-inner">
+        <input type="text" placeholder="Ваше имя">
+        <input type="email" placeholder="Ваш e-mail">
+      </div>
+      <textarea placeholder="Сообщение"></textarea>
+      <button class="feedback__button button" type="submit">Отправить</button>
+      </form>
+    </section>
+    <!-- Конец секции с формой -->
+  </main>
+  <!-- Конец основного контента -->
+
+  <!-- Подвал сайта -->
+  <footer class="footer">
+    <div class="footer__autor">
+      <h2 class="footer__autor-name">
+        Иван Иванов
+      </h2>
+      <p class="footer__autor-protection">
+        (с) 2018. Все права защищены.
+      </p>
+    </div>
+    <div class="footer__social">
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a href="" class="footer__social-link">
+            <img src="image/vk__logo.svg" alt="В контакте">
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="" class="footer__social-link">
+            <img src="image/vk__logo.svg" alt="В контакте">
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="" class="footer__social-link">
+            <img src="image/vk__logo.svg" alt="В контакте">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <!-- Конец подвала -->
 </body>
 </html>
