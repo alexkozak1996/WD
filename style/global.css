@@ -5,9 +5,12 @@
 }
 
 body {
+  padding: 0;
   width: 1920px;
   margin: 0 auto;
   font-family: Roboto, sans-serif;
+  color: #000;
+  overflow-x: hidden;
 }
 
 .visually-hidden {
@@ -48,4 +51,22 @@ img {
 
 button {
   font: inherit;
+}
+
+.button {
+  background: #34547A;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  display: block;
+  transition: 0.5s all;
+}
+
+.button:hover {
+  opacity: 0.8;
 }
